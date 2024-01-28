@@ -1,0 +1,7 @@
+C:\Users\Denis\Desktop\проекты Ильи оаип\16_1ababiy\bin\Debug\16_1ababiy.exe.config
+C:\Users\Denis\Desktop\проекты Ильи оаип\16_1ababiy\bin\Debug\16_1ababiy.exe
+C:\Users\Denis\Desktop\проекты Ильи оаип\16_1ababiy\bin\Debug\16_1ababiy.pdb
+C:\Users\Denis\Desktop\проекты Ильи оаип\16_1ababiy\obj\Debug\16_1ababiy.csproj.AssemblyReference.cache
+C:\Users\Denis\Desktop\проекты Ильи оаип\16_1ababiy\obj\Debug\16_1ababiy.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\проекты Ильи оаип\16_1ababiy\obj\Debug\16_1ababiy.exe
+C:\Users\Denis\Desktop\проекты Ильи оаип\16_1ababiy\obj\Debug\16_1ababiy.pdb
