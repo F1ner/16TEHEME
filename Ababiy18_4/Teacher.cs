@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ababiy18_4
+namespace Ababiy18_4_classwork_
 {
     /// <summary>
     /// Представляет преподавателя
@@ -15,12 +15,10 @@ namespace Ababiy18_4
         /// Возвращает или задает должность преподавателя
         /// </summary>
         public string Position { get; set; }
-
         /// <summary>
         /// Возвращает или задает стаж работы преподавателя
         /// </summary>
         public int Experience { get; set; }
-
         /// <summary>
         /// Инициализирует новый экземпляр класса Teacher с указанными именем, фамилией, датой рождения, факультетом, должностью и стажем работы
         /// </summary>
@@ -38,14 +36,32 @@ namespace Ababiy18_4
 
             Experience = experience;
         }
-
         /// <summary>
         /// Отображает детали преподавателя
         /// </summary>
         public override void Display()
         {
-            base.Display();
-            Console.WriteLine($"{Position} ({Experience} лет стажа)");
+            //base.Display();
+            //Console.WriteLine($"{Position} ({Experience} лет стажа)");
+            Console.WriteLine($"{FirstName} {LastName} дата рождения-{BirthDate} факультет-{Faculty} должность-{Position} стаж-{Experience} возраст-{Age()}");
+
+        }
+
+        public static Teacher Input()
+        {
+            Console.Write("Введите имя ");
+            string name = Console.ReadLine();
+            Console.Write("Введите фамилию ");
+            string surname = Console.ReadLine();
+            Console.Write("Введите дату рождения ");
+            DateTime dob = DateTime.Parse(Console.ReadLine());
+            Console.Write("Введите факультет ");
+            string fac = Console.ReadLine();
+            Console.Write("Введите должность ");
+            string pos = Console.ReadLine();
+            Console.Write("Введите стаж ");
+            int exp = int.Parse(Console.ReadLine());
+            return new Teacher(name, surname, dob, fac,pos, exp);
         }
     }
 }

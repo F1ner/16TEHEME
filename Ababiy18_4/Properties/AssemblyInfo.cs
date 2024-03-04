@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("Ababiy18_4")]
+[assembly: AssemblyTitle("Ababiy18_4(classwork)")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Ababiy18_4")]
+[assembly: AssemblyProduct("Ababiy18_4(classwork)")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("ff9931f2-a740-458c-b9c1-2d809fdca4ba")]
+[assembly: Guid("77b85b55-fe31-4b1a-84d2-a520a1f9ba25")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

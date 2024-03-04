@@ -4,18 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ababiy18_4
+namespace Ababiy18_4_classwork_
 {
     /// <summary>
     /// Представляет сотрудника
     /// </summary>
     public class Employee : Person
     {
-        /// <summary>
-        /// Возвращает или задает факультет сотрудника
-        /// </summary>
-        public string Faculty { get; set; }
-
         /// <summary>
         /// Инициализирует новый экземпляр класса Employee с указанными именем, фамилией, датой рождения и факультетом
         /// </summary>
@@ -27,14 +22,26 @@ namespace Ababiy18_4
         {
             Faculty = faculty;
         }
-
         /// <summary>
         /// Отображает детали сотрудника
         /// </summary>
         public override void Display()
         {
-            base.Display();
-            Console.WriteLine($"Факультет: {Faculty}");
+            //base.Display();
+            Console.WriteLine($"{FirstName} {LastName} дата рождения-{BirthDate} факультет-{Faculty} возраст-{Age()}");
+        }
+
+        public static Employee Input()
+        {
+            Console.Write("Введите имя ");
+            string name = Console.ReadLine();
+            Console.Write("Введите фамилию ");
+            string surname = Console.ReadLine();
+            Console.Write("Введите дату рождения ");
+            DateTime dob = DateTime.Parse(Console.ReadLine());
+            Console.Write("Введите факультет ");
+            string fac = Console.ReadLine();
+            return new Employee(name, surname, dob, fac);
         }
     }
 }

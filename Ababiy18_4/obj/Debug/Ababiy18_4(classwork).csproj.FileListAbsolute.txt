@@ -1,0 +1,7 @@
+D:\215\Ababiy18_4(classwork)\bin\Debug\Ababiy18_4(classwork).exe.config
+D:\215\Ababiy18_4(classwork)\bin\Debug\Ababiy18_4(classwork).exe
+D:\215\Ababiy18_4(classwork)\bin\Debug\Ababiy18_4(classwork).pdb
+D:\215\Ababiy18_4(classwork)\obj\Debug\Ababiy18_4(classwork).csproj.AssemblyReference.cache
+D:\215\Ababiy18_4(classwork)\obj\Debug\Ababiy18_4(classwork).csproj.CoreCompileInputs.cache
+D:\215\Ababiy18_4(classwork)\obj\Debug\Ababiy18_4(classwork).exe
+D:\215\Ababiy18_4(classwork)\obj\Debug\Ababiy18_4(classwork).pdb

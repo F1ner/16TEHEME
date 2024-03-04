@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ababiy18_4
+namespace Ababiy18_4_classwork_
 {
     public class Student : Person
     {
@@ -34,8 +34,24 @@ namespace Ababiy18_4
         /// </summary>
         public override void Display()
         {
-            base.Display();
-            Console.WriteLine($"Курс: {Course}");
+            //base.Display();
+            //Console.WriteLine($"Курс: {Course}");
+            Console.WriteLine($"{FirstName} {LastName} дата рождения-{BirthDate} факультет-{Faculty}  курс-{Course} возраст-{Age()}");
+
+        }
+        public static Student Input()
+        {
+            Console.Write("Введите имя ");
+            string name = Console.ReadLine();
+            Console.Write("Введите фамилию ");
+            string surname = Console.ReadLine();
+            Console.Write("Введите дату рождения ");
+            DateTime dob = DateTime.Parse(Console.ReadLine());
+            Console.Write("Введите факультет ");
+            string fac = Console.ReadLine();
+            Console.Write("Введите курс ");
+            int cour = int.Parse(Console.ReadLine());
+            return new Student(name, surname, dob, fac, cour);
         }
     }
 }
